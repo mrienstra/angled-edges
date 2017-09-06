@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NigelOToole/angled-edges.git"
+    "url": "git+https://github.com/mrienstra/angled-edges.git"
   },
   "keywords": [
     "sass",
@@ -21,9 +21,9 @@
   "author": "Nigel O Toole <pure@purestructure.com> (http://www.purestructure.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/NigelOToole/angled-edges/issues"
+    "url": "https://github.com/mrienstra/angled-edges/issues"
   },
-  "homepage": "https://github.com/NigelOToole/angled-edges#readme",
+  "homepage": "https://github.com/mrienstra/angled-edges#readme",
   "engines": {
     "node": ">=4"
   },
