@@ -1,3 +1,5 @@
+@import "../angled-edges.scss";
+
 // ----- Mixins -----
 @mixin clearfix() {
   &:before,
@@ -82,7 +84,7 @@ strong {
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
-  @include clearfix();  
+  @include clearfix();
 }
 
 
@@ -119,7 +121,7 @@ strong {
         margin-left: 7px;
       }
     }
-    
+
     @media (min-width: 768px) {
       float: right;
     }
@@ -183,4 +185,47 @@ pre {
   background-color: #f3f3f3;
   border: 1px solid #bbb;
   border-radius: 4px;
+}
+
+
+// ----- Usage of placeholders -----
+.angle--top-left {
+  @extend %angle--top-left;
+}
+
+.angle--top-right {
+  @extend %angle--top-right;
+}
+
+.angle--bottom-left {
+  @extend %angle--bottom-left;
+}
+
+.angle--bottom-right {
+  @extend %angle--bottom-right;
+}
+
+.angle--both-left-left {
+  @extend %angle--both-left-left;
+}
+
+.angle--both-right-right {
+  @extend %angle--both-right-right;
+}
+
+.angle--both-left-right {
+  @extend %angle--both-left-right;
+}
+
+.angle--both-right-left {
+  @extend %angle--both-right-left;
+}
+
+
+.angle__content {
+  @extend %angle__content;
+}
+
+.angle--colour {
+  @extend %angle--colour;
 }
